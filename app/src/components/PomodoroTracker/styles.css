@@ -1,0 +1,26 @@
+.pomodoro-tracker {
+  display: flex;
+}
+.box {
+  text-align: center;
+}
+.square-box {
+  width: 20px;
+  height: 20px;
+  border-style: dashed;
+  text-align: center;
+}
+.box-label {
+  color: gray;
+}
+.circle {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: inline-block;
+}
+.filled {
+  background-color: black;
+}
